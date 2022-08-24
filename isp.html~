@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>ISP - Team Rhythm</title>
+  </head>
+  <body>
+    <audio controls autoplay>
+    <source src="ispAudio.wav" type="audio/wav">
+    Your browser doesn't support audio
+    </audio>
+    <div class="topbar">
+      <nav>
+	<ul>
+	  <li><a href="./index.html">Home</a></li>
+	  <li><a href="./cs2.html">CS2</a></li>
+	  <li><a href="./isp.html">ISP</a></li>
+	</ul>
+      </nav>
+    </div>
+    
+    <h1>Team Rhythm</h1>
+    <iframe src="https://drive.google.com/file/d/1oIbfmSudTtHsPTMzhOxTl-RbKgGMfCtM/preview?start=1" width="960" height="720" allow="autoplay"></iframe>
+    </body>
