@@ -9,18 +9,31 @@
 	margin: 100px 250px 10px;
     }
 
-    a {
+    a.topbar {
 	text-align: center;
 	margin-bottom: 10px;
     }
-    </style>
+    .essay {
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+    }
+    a.essay {
+	font-size: 30px;
+	text-decoration: bold, underline;
+    }
+    
+    
+  </style>
+
   <body>
     <div class="topbar">
       <nav>
 	<ul>
-	  <li><a href="./index.html">Home</a></li>
-	  <li><a href="./aboutme.html">About Me</a></li>
-	  <li><a href="./isp.html">ISP</a></li>
+	  <li><a class="topbar" href="./index.html">Home</a></li>
+	  <li><a class="topbar" href="./aboutme.html">About Me</a></li>
+	  <li><a class="topbar" href="./isp.html">ISP</a></li>
 	</ul>
       </nav>
     </div>
@@ -31,9 +44,15 @@
 
 </br>
     <p>read my essays below</p>
-      <a href="https://docs.google.com/document/d/1ROBsRpfJnsAUdk_SQREKo822phEfSXnFgDJgEfuqFuw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">json essay</a>
-      <a href="https://docs.google.com/document/d/1CM3NJgCjhHZx4eCbpVlG8VReztlohepLzDnx02DevQQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">mvc essay</a>
-      <a href="https://docs.google.com/document/d/17O7fJ3Cte_F-__GBdAnDRXsHXXiGXBNO6rLFj7C6vZA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">rest api essay</a>
-      
-    <body>
+    <br></br>
+    <div class="essay">
+      <nav>
+	<ul>
+	  <li><a class="essay" href="https://docs.google.com/document/d/1ROBsRpfJnsAUdk_SQREKo822phEfSXnFgDJgEfuqFuw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">json essay</a></li>
+	  <li><a class="essay" href="https://docs.google.com/document/d/1CM3NJgCjhHZx4eCbpVlG8VReztlohepLzDnx02DevQQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">mvc essay</a></li>
+	  <li><a class="essay" href="https://docs.google.com/document/d/17O7fJ3Cte_F-__GBdAnDRXsHXXiGXBNO6rLFj7C6vZA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">rest api essay</a></li>
+	</ul>
+      </nav>
+    </div>
+  <body>
   <html>
