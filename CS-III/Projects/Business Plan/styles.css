@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+}
+
+.column {
+    float: left;
+    flex: 50%;
+    padding: 10px
+}
+
+.row:hover {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 2.75em;
+}
+
+h2, name {
+    font-size: 2em;
+    margin: auto;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+/* name {
+    text-align: justify;
+    background-color: #003963;
+    text-decoration: underline;
+    color: white;
+} */
+
+h1, h2, name {
+    text-align: center;
+    font-family: "Arial";
+}

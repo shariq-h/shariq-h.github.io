@@ -1,0 +1,42 @@
+ <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../apa.css">
+    <link rel="icon" href="./icon.webp">
+  </head>
+  <body>
+    <!--<div class="topbar">
+      <nav>
+	<ul>
+	  <li><a href="./aboutme.html">About Me</a></li>
+	  <li><a href="./CS-II/cs2.html">CS2</a></li>
+	  <li><a href="./isp.html">ISP</a></li>
+	  <li><a href="./fingerprints.html">Fingerprints</a><li>
+	</ul>
+      </nav>
+    </div>
+    -->
+    
+    <h1>Model-View-Controller Essay</h1>
+
+    <div class ="author">
+      <p>Shariq Hasan<br>Department of Computer Science, Allen High School<br>Computer Science II Advanced<br>Mr. David Ben-Yaakov<br>October 1, 2021</p>
+    </div>
+    <br>
+    <p>The model view controller or MVC is a pattern of designing and organizing a user interface. The user inputs data which is processed by the controller, who turns it into commands for the model. The model is the central part of the code and contains the structure of the data that doesn't directly involve the user interface, like logic and rules. Based on the user input, the model accordingly updates the view, which the user directly sees. Based on the updated view, the user can input additional information, restarting the cycle. The model view controller pattern is especially efficient since generally these separate components can be reusable and are more easily updated to accommodate new features and code (codecademy, n.d.).</p>
+    <p>The creation of the model-view-controller pattern is credited to Trygve Reenskaug who introduced it to Smalltalk-79 in the 1970s, a programming language primarily used to teach computer science. Reenskaug, who was working as a visiting scientist from the Learning Research Group at Xerox Palo Alto Research Center, explains the purpose of the model-view-controller in his notes as "to bridge the gap between the human user's mental model and the digital model that exists in the computer" (Reenskaug, 1979,1). Reenskaug also reveals that the first draft of MVC included 4 terms: Model, View, Controller, and Editor. The editor would be a component that the view uses as needed between the view and the input devices, such as a mouse or keyboard (Reenskaug, 1979, 1). It wasn't until the 1980s that the model-view-controller was implemented in Smalltalk-80 by Jim Althoff and others (Wikipedia, n.d.). Reenskaug reflects that Althoff, who had implemented the model view controller after Reenskaug had left Xerox PARC, used the term "controller" differently than Reenskaug had intended. He goes on to explain that the controller was supposed to be "responsible for creating and coordinating its subordinate views". In Reenskaug's later developments of the model view controller, he specifies that the view accepts and handles user input relevant to itself, whereas the controller accepts and handles user input relevant to both the controller and the view, which together made up the tool (Reenskaug, 1979, 1). Finally, in 1988, the "model-view controller user interface paradigm" was cited as a concept in an article published by the Journal of Object Technology (Krasner & Pope, 1988, 26-49).</p>
+    <p>The model view controller is used widely throughout computer science, notably in web frameworks and web design. The use of the model view controller pattern in web design gained popularity after it was introduced in NeXT's WebObjects in 1996 and became popular with Java developers after WebObjects was moved to Java, and was implemented in their later frameworks like Spring, which was released in 2002. The model view controller continued to be widely implemented after they were implemented in Python's Django framework as well as in Ruby's Rails framework. These additions were especially beneficial to the rise of model view controller because they introduced the model view controller outside of traditional business environments, where it was traditionally popular (Wikipedia, n.d.).</p>
+    <p>However, the model view controller is not immune to some shortcomings. A misunderstanding in the flow between the model, the view, and the controller, can cause code to overlap on some responsibilities. This disorganization makes debugging extremely difficult since when the responsibilities are improperly managed between two components, it becomes harder to find where the error lies. Additionally, if responsibilities overlap, the pattern may not be able to be reused in a cycle, since some parts of one component rely on the other. A key part of the model view controller pattern is the continuous flow between the view, controller, and model. Another issue faced when working with the model view controller pattern is that it becomes harder to work within larger settings where one group works on the user interface (the view and the controller) while the other works on the model (Wikipedia, n.d.). If the two groups don't work at the same pace, one group may get farther in development than the other. This becomes an issue when the components require each other, such as if the group working on the model is ready to receive input to the process, but the user interface group hasn't finished working on a way for the controller to process the data. This causes the model group to be unable to advance in development until the user interface group catches up. Additionally, if the groups aren't working together, the user interface group may not fully understand what types of data the model requires in what format, and becomes difficult to integrate within the model.</p>
+      <p>The model view controller pattern is implemented in my Sudoku project. When the program is first to run, the user is greeted with the blank Sudoku board, which represents the view of the model view controller. Next, the user can input data by using the arrow keys to move a cursor around between the Sudoku cells and can use the function keys to input numbers into the cells. The controller then takes the numbers inputted into the cells and categorizes them by row, column, and box so that the model is able to process the numbers in each element of Sudoku: the boxes, rows, and columns. Finally, the controller sends the data to the model, being the API provided by the Computer Science 3 class. The API uses the numbers processed from the controller to solve for the missing cells based on each row, column, and box having only 1 of each number from a set of 1 through 9. Finally, the model sends the solved cell's data back to view, where it is displayed as the completed Sudoku board for the user to see.</p>
+
+
+    <h1>References</h1>
+
+    <div class="ref">
+      <p>codecademy.(n.d.). <i>MVC: Model, View, Controller.</i> codecademy. Retrieved September 28, 2021, from <a class="ref" href="https://www.codecademy.com/articles/mvc" target="_blank">https://www.codecademy.com/articles/mvc</a></p>
+      <p>Krasner, G. E., & Pope, S. T. (1988, August 1). A cookbook for using the model-view controller user interface paradigm in Smalltalk-80. <i>Association for Computing Machinery Digital Library, 1</i>(3). <a class="ref" href="https://dl.acm.org/doi/10.5555/50757.50759" target="_blank">https://dl.acm.org/doi/10.5555/50757.50759</a></p>
+      <p>Reenskaug, T. M. H. (1979, March 22). MVC XEROX PARC 1978-79. <i>Welcome to the pages of Trygve M. H. Reenskaug,</i> MVC: Model-View-Controller. <a class="ref" href="https://folk.universitetetioslo.no/trygver/themes/mvc/mvc-index.html" target="_blank">https://folk.universitetetioslo.no/trygver/themes/mvc/mvc-index.html</a></p>
+      <p>Wikipedia. (n.d.). <i>Model-view-controller.</i> Wikipedia. Retrieved September 29, 2021, from <a class="ref" href="https://en.wikipedia.org/wiki/Model-view-controller" target="_blank">https://en.wikipedia.org/wiki/Model-view-controller</a></p>
+      </div>
+    
+  <body>
+    <html>

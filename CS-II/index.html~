@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>CS2</title>
+  </head>
+  <style>
+    p {
+	font-size: 30px;
+	margin: 100px 350px 10px;
+	text-align: left;
+    }		   
+
+    a.topbar {
+	text-align: center;
+	margin-bottom: 10px;
+    }
+    .essay {
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+    }
+    a.essay {
+	font-size: 30px;
+	text-decoration: bold, underline;
+	font-family: monospace;
+	text-align: center;
+    }
+    
+    
+  </style>
+
+  <body>
+    <div class="topbar">
+      <nav>
+	<ul>
+	  <li><a class="topbar" href="../index.html">Home</a></li>
+	</ul>
+      </nav>
+    </div>
+    
+    <h1>CS2</h1>
+    <p>In CS2, I learned about classes and how their functionality helps compartmentalize code. I learned about arrays, and how they can store more than numbers, and how we can call on information inside arrays to process large amounts of data. I learned about JSON files, it's origins, and how to create protocols that write JSON files to transfer date created in real time automatically.I learned about scope and different access monitors can change the permissions of other classes or methods to read each other. I also learned about nested loops and big O notation.</p>
+    <br>
+
+</br>
+    <h2>read my essays below</h2>
+    <br></br>
+    <div class="essay">
+      <nav>
+	<ul>
+	  <li><a class="essay" href="./Essays/JSON.html" target="_blank" rel="noopener noreferrer">json essay</a></li>
+	  <li><a class="essay" href="./Essays/MVC.html" target="_blank" rel="noopener noreferrer">mvc essay</a></li>
+	  <li><a class="essay" href="./Essays/REST API.html" target="_blank" rel="noopener noreferrer">rest api essay</a></li>
+	</ul>
+      </nav>
+    </div>
+    <h2>team rhythm</h2>
+    <p>For my independent study project, my team opted to create music using computer science.</p>
+    <div class="essay">
+      <a class="essay" href="./isp.html">See the process</a>
+    </div>
+  <body>
+  <html>

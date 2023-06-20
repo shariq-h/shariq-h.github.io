@@ -1,0 +1,50 @@
+colors {
+    color: #FFFCF2;
+    color: #CCC5B9;
+    color: #403D39;
+    color: #252422;
+    color: #EB5E28;
+}
+
+body {
+    background-color: #fffcf2;
+}
+
+h1 {
+    color: #252422;
+    text-align: center;
+    font-size: 45px;
+    font-family: verdana, sans-serif;
+}
+p {
+    color: #403d39;
+    text-align: center;
+    font-size: 20px;
+    font-family: verdana, sans-serif;
+}
+
+.topbar {
+    color: #fffcf2;
+    font-size: 16px;
+    font-family: monospace;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar li, .essay li {
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+a:link, a:visited {
+    color: #252422;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fffcf2;
+    background-color: #eb5e28;
+    text-decoration: underline;
+}

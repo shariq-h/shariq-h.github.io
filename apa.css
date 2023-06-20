@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+}
+
+h1, p, h2{
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 1em;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 2;
+} 
+
+h1 {
+    margin-top: 3%;
+    text-decoration: bold;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: bold;
+}
+
+p {
+    text-decoration: none;
+}
+
+
+h2, p {
+    text-indent: 48px;
+}
+
+.author p {
+    text-align: center;
+    text-indent: 0px;
+}
+
+.ref{
+    
+}
+
+a.ref:link, a.ref:visited, a.ref:hover, a.ref:active {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: blue;
+}
+
+.topbar {
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar li, .essay li {
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+

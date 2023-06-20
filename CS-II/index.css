@@ -6,17 +6,18 @@ h1 {
     color: white;
     font-family: monospace;
     font-size: 360%;
-    margin-top: 200px;
+    margin-top: 180px;
     text-align: center;
 }
 
 h2 {
+    font-size: 30px;
     color: white;
     font-family: monospace;
-    font-size:160%;
-    margin-bottom: 100px;
-    
+    text-align: center;
+    margin-bottom: 20px;
 }
+
 
 p {
     color: white;
@@ -35,7 +36,7 @@ a {
     transition:background .2s ease-in;
 }
 
-a:link {
+a:link, a:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
@@ -45,12 +46,6 @@ a:hover {
     color: black;
     background-color: white;
     text-decoration: underline;
-}
-
-a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
 }
 
 .topbar {
@@ -63,7 +58,7 @@ a:visited {
     padding: 0;
 }
 
-.topbar li {
+.topbar li, .essay li {
     display: inline-block;
     padding: 30px 20px;
 }
@@ -77,3 +72,4 @@ iframe {
     display: block;
     border-style:none;
 }
+
